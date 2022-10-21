@@ -1,0 +1,21 @@
+_id: req_2cab897ed1534689a21be81054efb521
+type: Request
+parentId: fld_98da0f301f52453984783acb2a02e250
+modified: 1666362213111
+created: 1666362210947
+url: ""
+name: New Request
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1666362210947
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

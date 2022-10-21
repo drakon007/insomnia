@@ -1,0 +1,36 @@
+_id: req_ebc5c2cf2fc34344934c908af1f5b591
+type: Request
+parentId: fld_4ca4203741f24806a839196c7fde1c34
+modified: 1666363347739
+created: 1666363117741
+url: http://localhost:5000/comments
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title":"title",
+    	"body":"body",
+    	"postId":"postId",
+    	"userId":"userId"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b4d2348091f64a368d450e252eca8a59
+  - id: pair_f403be581a644d76b11ecfddc555162c
+    name: Authorization
+    value: secretpassword
+    description: ""
+authentication: {}
+metaSortKey: -1666363117741
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

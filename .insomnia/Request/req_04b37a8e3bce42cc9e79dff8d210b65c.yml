@@ -1,0 +1,34 @@
+_id: req_04b37a8e3bce42cc9e79dff8d210b65c
+type: Request
+parentId: fld_98da0f301f52453984783acb2a02e250
+modified: 1666362447059
+created: 1666362004633
+url: http://localhost:5000/posts/
+name: AddId
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "qwe",
+    	"body": "123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c383e76522c24be9b5a84b5a288cf365
+  - id: pair_70d76f0412b0484a867870d75b3f1885
+    name: Authorization
+    value: secretpassword
+    description: ""
+authentication: {}
+metaSortKey: -1666362004633
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_5901d9f75d294b1a8ed13d593b739a88
+type: Request
+parentId: fld_98da0f301f52453984783acb2a02e250
+modified: 1666362335818
+created: 1666362216996
+url: http://localhost:5000/posts/6352ab169c8c5c51acfd5b65
+name: deleteposts
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_527af23e3d814eceb4ca9a1fe30f67f6
+    name: Authorization
+    value: secretpassword
+    description: ""
+authentication: {}
+metaSortKey: -1666362216996
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
