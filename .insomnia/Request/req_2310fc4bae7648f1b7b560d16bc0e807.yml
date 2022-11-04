@@ -1,15 +1,30 @@
 _id: req_2310fc4bae7648f1b7b560d16bc0e807
 type: Request
 parentId: fld_4ca4203741f24806a839196c7fde1c34
-modified: 1666363111907
+modified: 1667562282643
 created: 1666363108324
-url: ""
-name: New Request
+url: http://localhost:5000/comments/6352afb3699a779eeebd7c90
+name: comPut
 description: ""
 method: PUT
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "123",
+    	"body": "123",
+    	"postId": "123",
+    	"userId": "123"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2f6bccccce934ff9b887b3abeb697666
+  - id: pair_9037f61e3a984c018af4d0872a942b11
+    name: Authorization
+    value: secretpassword
+    description: ""
 authentication: {}
 metaSortKey: -1666363108324
 isPrivate: false

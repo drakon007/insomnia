@@ -1,21 +1,19 @@
 _id: req_02ed0c0ed9db45d38b2c7b4f1d7289bb
 type: Request
 parentId: fld_aa8f0d8860654252b21dd6613d63f311
-modified: 1666363138097
+modified: 1667562243665
 created: 1666362421816
 url: http://localhost:5000/autors
-name: AddAutors
+name: addAutors
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"rialname":"rialname",
-    	"name":"name",
-    	"mail":"mail",
+    	"username":"name",
     	"passworld":"passworld",
-    	"about":"about"
+      "roles": ["USER"]
     }
 parameters: []
 headers:

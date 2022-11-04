@@ -1,15 +1,29 @@
 _id: req_2cab897ed1534689a21be81054efb521
 type: Request
 parentId: fld_98da0f301f52453984783acb2a02e250
-modified: 1666362213111
+modified: 1667562230647
 created: 1666362210947
-url: ""
-name: New Request
+url: http://localhost:5000/posts/6352ab199c8c5c51acfd5b67
+name: putPosts
 description: ""
 method: PUT
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "00000000",
+    		"body": "00000000"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b3586b17aa854109928cd165b851edad
+  - id: pair_fe387f3bd513408ba6233286d5d5ba41
+    name: Authorization
+    value: secretpassword
+    description: ""
+    disabled: false
 authentication: {}
 metaSortKey: -1666362210947
 isPrivate: false

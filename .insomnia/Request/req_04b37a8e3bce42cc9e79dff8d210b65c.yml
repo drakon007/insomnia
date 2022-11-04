@@ -1,18 +1,18 @@
 _id: req_04b37a8e3bce42cc9e79dff8d210b65c
 type: Request
 parentId: fld_98da0f301f52453984783acb2a02e250
-modified: 1666362447059
+modified: 1667562223708
 created: 1666362004633
 url: http://localhost:5000/posts/
-name: AddId
+name: addPosts
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"title": "qwe",
-    	"body": "123"
+    	"title": "Название поста",
+    	"body": "Текст поста"
     }
 parameters: []
 headers:
@@ -21,7 +21,8 @@ headers:
     id: pair_c383e76522c24be9b5a84b5a288cf365
   - id: pair_70d76f0412b0484a867870d75b3f1885
     name: Authorization
-    value: secretpassword
+    value: bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNTZhNDRjNGFjMDUyMjhkODg3ODkzZiIsInJvbGVzIjpbIlVTRVIiXSwiaWF0IjoxNjY2NzkyNTM3LCJleHAiOjE2NjY4MzU3Mzd9.bPh_17Iu9eD8wMSprJkHqj5X4NMImZjdjFuPx977SGM
     description: ""
 authentication: {}
 metaSortKey: -1666362004633

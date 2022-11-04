@@ -1,10 +1,10 @@
 _id: req_ebc5c2cf2fc34344934c908af1f5b591
 type: Request
 parentId: fld_4ca4203741f24806a839196c7fde1c34
-modified: 1666363347739
+modified: 1667562295905
 created: 1666363117741
 url: http://localhost:5000/comments
-name: New Request
+name: comPost
 description: ""
 method: POST
 body:
@@ -13,8 +13,7 @@ body:
     {
     	"title":"title",
     	"body":"body",
-    	"postId":"postId",
-    	"userId":"userId"
+    	"postId":"postId"
     }
 parameters: []
 headers:
@@ -23,7 +22,8 @@ headers:
     id: pair_b4d2348091f64a368d450e252eca8a59
   - id: pair_f403be581a644d76b11ecfddc555162c
     name: Authorization
-    value: secretpassword
+    value: bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNTZhNDRjNGFjMDUyMjhkODg3ODkzZiIsInJvbGVzIjpbIlVTRVIiXSwiaWF0IjoxNjY2NzkyNTM3LCJleHAiOjE2NjY4MzU3Mzd9.bPh_17Iu9eD8wMSprJkHqj5X4NMImZjdjFuPx977SGM
     description: ""
 authentication: {}
 metaSortKey: -1666363117741

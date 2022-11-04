@@ -1,15 +1,31 @@
 _id: req_7fe135c942f84f1ebb2d926e4e76ba27
 type: Request
 parentId: fld_aa8f0d8860654252b21dd6613d63f311
-modified: 1666362553547
+modified: 1667562253269
 created: 1666362552105
-url: ""
-name: New Request
+url: http://localhost:5000/autors/6352aca69c8c5c51acfd5b71
+name: putAutors
 description: ""
 method: PUT
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rialname": "123",
+    		"name": "123",
+    		"mail": "123",
+    		"passworld": "123",
+    		"about": "123"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_96e39e6b90c14b5cbed12925b1d78c7a
+  - id: pair_87fad9fd790d4d078e4eb3658cb45aad
+    name: Authorization
+    value: secretpassword
+    description: ""
 authentication: {}
 metaSortKey: -1666362552105
 isPrivate: false

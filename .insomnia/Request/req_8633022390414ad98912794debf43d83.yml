@@ -1,9 +1,9 @@
 _id: req_8633022390414ad98912794debf43d83
 type: Request
 parentId: fld_aa8f0d8860654252b21dd6613d63f311
-modified: 1666362546967
+modified: 1666499752640
 created: 1666362383108
-url: http://localhost:5000/autors/6352aca59c8c5c51acfd5b6f
+url: http://localhost:5000/autors/6352aca69c8c5c51acfd5b71
 name: IdAutors
 description: ""
 method: GET

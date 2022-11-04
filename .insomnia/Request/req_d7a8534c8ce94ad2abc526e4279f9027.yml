@@ -1,10 +1,10 @@
 _id: req_d7a8534c8ce94ad2abc526e4279f9027
 type: Request
 parentId: fld_aa8f0d8860654252b21dd6613d63f311
-modified: 1666362588894
+modified: 1667562267679
 created: 1666362566171
 url: http://localhost:5000/autors/6352aca59c8c5c51acfd5b6f
-name: New Request
+name: deleteAutors
 description: ""
 method: DELETE
 body: {}
