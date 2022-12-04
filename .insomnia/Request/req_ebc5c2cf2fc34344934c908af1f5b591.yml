@@ -1,10 +1,10 @@
 _id: req_ebc5c2cf2fc34344934c908af1f5b591
 type: Request
 parentId: fld_4ca4203741f24806a839196c7fde1c34
-modified: 1667562295905
+modified: 1670161255540
 created: 1666363117741
 url: http://localhost:5000/comments
-name: comPost
+name: addComments
 description: ""
 method: POST
 body:
@@ -13,7 +13,8 @@ body:
     {
     	"title":"title",
     	"body":"body",
-    	"postId":"postId"
+    	"postId":"postId",
+    	"userId":"userId"
     }
 parameters: []
 headers:
